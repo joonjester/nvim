@@ -1,16 +1,19 @@
 return {
 	"voldikss/vim-floaterm",
 	config = function()
-		vim.keymap.set("n", "<leader>t", function()
+		vim.keymap.set("n", "<leader>to", function()
 			vim.cmd("FloatermNew")
 		end)
 		vim.keymap.set("n", "<leader>tt", function()
 			vim.cmd("FloatermToggle")
 		end)
-		vim.keymap.set("n", "<leader>tN", function()
+		vim.keymap.set("n", "<leader>tk", function()
+			vim.cmd("FloatermKill")
+		end)
+		vim.keymap.set("n", "<leader>tn", function()
 			vim.cmd("FloatermNext")
 		end)
-		vim.keymap.set("n", "<leader>tP", function()
+		vim.keymap.set("n", "<leader>tp", function()
 			vim.cmd("FloatermPrev")
 		end)
 	end,
