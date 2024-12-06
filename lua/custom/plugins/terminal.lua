@@ -11,7 +11,7 @@ return {
 			vim.cmd("FloatermKill")
 			vim.cmd("FloatermToggle")
 		end)
-		vim.keymap.set("n", "<leader>tc", function()
+		vim.keymap.set("n", "<leader>tk", function()
 			vim.cmd("FloatermKill")
 		end)
 		vim.keymap.set("n", "<leader>tn", function()
