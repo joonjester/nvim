@@ -9,11 +9,6 @@ return {
 
 		local bufnr = vim.api.nvim_get_current_buf()
 		local opts = { buffer = bufnr, remap = false }
-		vim.keymap.set("n", "<leader>gc", function()
-			local message = vim.fn.input("Commit message: ")
-			vim.cmd('Git commit -m "' .. message .. '"')
-		end, opts)
-
 		vim.keymap.set("n", "<leader>p", function()
 			vim.cmd.Git({ "pull", "--rebase" })
 		end, opts)
