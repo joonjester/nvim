@@ -46,4 +46,4 @@ vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 vim.keymap.set("n", "<leader>ck", "<cmd>cnext<CR>zz")
 vim.keymap.set("n", "<leader>cj", "<cmd>cprev<CR>zz")
 
-vim.keymap.set("n", "<C-l>", vim.cmd.noh)
+vim.keymap.set("n", "<leader>nh", vim.cmd.noh)

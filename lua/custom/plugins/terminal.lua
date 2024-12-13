@@ -5,5 +5,6 @@ return {
 		vim.keymap.set("t", "<C-t>", "<cmd>:FloatermToggle<CR>")
 		vim.keymap.set("t", "<C-l>", "<cmd>:FloatermNext<CR>")
 		vim.keymap.set("t", "<C-h>", "<cmd>:FloatermPrev<CR>")
+		vim.keymap.set("t", "<C-k>", "<cmd>:FloatermKill<CR>")
 	end,
 }
