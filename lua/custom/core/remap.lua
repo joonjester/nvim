@@ -12,8 +12,6 @@ vim.keymap.set("n", "<C-k>", "<C-w><C-k>", { desc = "Move focus to the upper win
 vim.keymap.set("i", "<C-j>", "<C-n>")
 vim.keymap.set("i", "<C-k", "<C-p>")
 
-vim.keymap.set("i", "<C-i>", "<Esc>")
-
 vim.keymap.set("n", "<leader>d", '"_d')
 vim.keymap.set("v", "<leader>d", '"_d')
 
